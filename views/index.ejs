@@ -18,8 +18,8 @@
         <div class="card-content">
           <div class="content">
               <ul class="groceries">
-                <% for(const grocery in groceries) { %>
-                    <div><%= grocery %></div>
+                <% for(let i = 0; i < groceries.length; i++) { %>
+                    <li> <%= groceries[i] %> </li>
                <% } %>
               </ul>
             
